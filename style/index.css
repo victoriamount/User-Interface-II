@@ -40,11 +40,12 @@ body {
     font-size: 1.4rem;;
     line-height: 1.5;
     font-family: 'Bellota', cursive;
-    margin: 10px;
+    color: #3d405b;
 }
 h1 {
     font-family: 'Belgrano', serif;
     font-size: 6rem;
+    color: #f4f1de;
 }
 h2 {
     font-size: 4rem;
@@ -54,19 +55,38 @@ h3 {
 }
 a {
     text-decoration: none;
+    font-size: 1.4rem;
+    color: #f4f1de;
+    background-color: #81b29a;
+    padding: 4px 20px;
+    text-align: center;
 }
 section {
     padding: 4% 0;
 }
 .boldText {
     font-weight: bold;
+    color: #e07a5f;
 }
 
 /* HEADER STYLES */
 .subtitle {
     font-size: 4rem;
 }
-
+header {
+    background-color: #3d405b;
+    height: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    padding: 0 3%;
+}
+header nav {
+    margin-left: 2%;
+}
+header a {
+    margin:0;
+}
 
 /* ABOUT ME STYLES */
 #aboutMe {
@@ -74,6 +94,8 @@ section {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-content: flex-end;
+    background-color: #f4f1de;
+    padding: 2% 3%;
 }
 
 #aboutMe div {
@@ -81,6 +103,11 @@ section {
     flex-flow: column nowrap;
     width: 45%;
     justify-content: flex-end;
+}
+
+#aboutMe a {
+    width: 30%;
+    margin: 2% 0;
 }
 
 #aboutMe img {
@@ -97,20 +124,41 @@ section {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
+    background-color: #f4f1de;
+    padding: 0 3%;
   }
 
 #gallery div {
     width:23%;
-    margin:4% 0;
+    margin:2.5% 0;
     display:flex;
     flex-direction:column;
     align-items:center;
 }
 #gallery div img {
-
+/* empty */
 }
-
 #gallery p {
     text-align: center;
 }
+
 /* FOOTER STYLES */
+footer {
+    color: #f4f1de;
+    height: 150px;
+    background-color: #3d405b;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer a {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer h2 {
+    text-align: center;
+    padding: 2% 0;
+}
+
