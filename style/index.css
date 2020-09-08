@@ -163,7 +163,7 @@ footer h2 {
 footer #supportButton {
     background-color: #3d405b;
     text-align: center;
-    padding-top: 4%;
+    padding-top: 3%;
 }
 
 /* TABLET STYLES @ 800PX */
@@ -185,6 +185,9 @@ footer #supportButton {
     }
     header a {
         margin: 0 1%;
+    }
+    h1 {
+        font-size: 4rem; 
     }
     /* About */
     #aboutMe {

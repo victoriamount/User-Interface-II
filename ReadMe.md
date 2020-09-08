@@ -35,7 +35,7 @@ Use the checklist below to guide your work today. Your final product should be p
  Add accessability features to your webpage
 
  Design should closely follow the mobile wireframe given for your chosen layout
- 
+
 Task 2b: Exit Ticket
 Once you begin, you will have 15 minutes to answer the questions here
 
@@ -152,3 +152,6 @@ to link to about, href links to "about.html"
 google fonts goes above everything
 head includes setup user doesn't see
 Good idea to plan a little. Print and circle the wireframe. 
+
+
+I did the smaller screen one first because I thought it would sort out some questions I had (it did), but because it seems like the larger screen changes affect the smaller screen layout (makes sense, the max-width rules still apply as you shrink), I should start with the bigger one?
